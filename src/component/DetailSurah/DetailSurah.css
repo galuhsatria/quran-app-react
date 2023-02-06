@@ -6,6 +6,7 @@
 
 body {
   padding-top: 20px;
+  transition: 500ms ease;
 }
 .ayat {
   width: 350px;
@@ -47,6 +48,8 @@ body {
 .arti p {
   font-family: "Poppins", sans-serif;
   padding-top: 10px;
+  text-align: start;
+  margin-left: 10px;
 }
 
 #nomor {
