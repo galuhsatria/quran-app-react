@@ -1,0 +1,44 @@
+.surah {
+  display: flex;
+  margin: auto;
+  width: 350px;
+  background-color: #001e3c;
+  /* padding: 15px 30px; */
+  padding: 20px 30px 0 30px;
+  color: #ffff;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.surah:hover,
+.surah:focus {
+  background-color: #011830;
+}
+.arti {
+  line-height: 25px;
+  color: #a3a3a3;
+}
+.nama-surah-arab {
+  color: #0078f2;
+  font-size: 24px;
+  font-family: "Amiri";
+}
+
+.surah-detail {
+  line-height: 15px;
+  align-items: center;
+}
+
+.nomor {
+  color: #fff;
+  background-color: #0078f2;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 8px;
+}

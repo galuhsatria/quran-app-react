@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 20px;
+}
+.ayat {
+  width: 350px;
+  margin: auto;
+  padding: 15px 30px 10px 15px;
+  margin-bottom: 10px;
+  background-color: #02264d;
+  border-radius: 10px;
+}
+
+.detail-ayat {
+  text-align: center;
+}
+
+#top-element {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 10px;
+  background-image: url(Frame\ 36.png);
+  width: 350px;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+  border-radius: 0 20px 20px 0px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#ayat h3 {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  text-align: end;
+  font-family: "Amiri";
+  line-height: 50px;
+}
+
+.arti p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+}
+
+#nomor {
+  margin-bottom: 30px;
+}
+#nomor p {
+  color: #fff;
+  background-color: #0078f2;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 3px;
+}
+
+.image-top {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.image-top img {
+  width: 250px;
+}
+
+#top-element p {
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.back {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 300px;
+}
+
+#nama-latin {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+#arti {
+  font-size: 18px;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+#tempat-turun {
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+audio {
+  text-align: center;
+  margin-bottom: 15px;
+}

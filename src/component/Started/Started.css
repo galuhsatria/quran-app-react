@@ -1,0 +1,36 @@
+#started {
+  color: #fff;
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#started h3 {
+  color: #0078f2;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#started p {
+  width: 230px;
+  margin: auto;
+}
+
+#btn-started:hover {
+  background-color: #02264d;
+}
+#btn-started {
+  background-color: #0078f2;
+  width: 240px;
+  margin: auto;
+  padding: 16px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+.header {
+  width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.header h2 {
+  color: #0078f2;
+}
