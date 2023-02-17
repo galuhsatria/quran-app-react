@@ -4,7 +4,7 @@ import "./Surah.css";
 import "animate.css";
 const Surah = (props) => {
   return (
-    <Link className="surah gap-3 text-decoration-none" to={`/surah/${props.nomor}`}>
+    <Link className=" surah gap-3 text-decoration-none" to={`/surah/${props.nomor}`}>
       <div className="surah-detail d-flex gap-4 animate__fadeIn">
         <p className="nomor">{props.nomor} </p>
         <div className="name-surah">

@@ -22,7 +22,7 @@ const DetailSurah = () => {
     getData();
   }, []);
 
-  let { nama_latin, jumlah_ayat, tempat_turun, arti, audio, ayat } = fetchData;
+  let { nama_latin, jumlah_ayat, tempat_turun, arti, ayat } = fetchData;
 
   let mapAyat;
 
@@ -33,7 +33,7 @@ const DetailSurah = () => {
           <div id="nomor">
             <p>{x.nomor}</p>
           </div>
-          <div id="ayat">
+          <div id="ayat" className="text-end">
             <h3>{x.ar}</h3>
           </div>
           <div className="arti">
@@ -45,12 +45,12 @@ const DetailSurah = () => {
   }
 
   return (
-    <div className="detail-ayat">
-      <div className="back">
+    <div className="detail-ayat text-center">
+      <div className="back ms-3">
         <Link to="/daftar-surah" className="text-white">
-          <i class="bi bi-arrow-left"></i>
+          <i class="bi bi-arrow-left fs-4"></i>
         </Link>
-        <h3>{nama_latin}</h3>
+        <p className="fs-5 fw-semibold mb-0">{nama_latin}</p>
       </div>
       <div id="top-element">
         <p id="nama-latin">{nama_latin}</p>
@@ -66,9 +66,6 @@ const DetailSurah = () => {
           <img src={bismilah} alt="" />
         </div>
       </div>
-      <audio controls>
-        <source src={audio} type="audio/mp3" />
-      </audio>
       <>{mapAyat}</>
     </div>
   );

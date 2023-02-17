@@ -9,16 +9,12 @@ body {
   transition: 500ms ease;
 }
 .ayat {
-  width: 350px;
+  width: 90%;
   margin: auto;
   padding: 15px 30px 10px 15px;
   margin-bottom: 10px;
   background-color: #02264d;
   border-radius: 10px;
-}
-
-.detail-ayat {
-  text-align: center;
 }
 
 #top-element {
@@ -42,6 +38,7 @@ body {
   color: #fff;
   text-align: end;
   font-family: "Amiri";
+  letter-spacing: 1px;
   line-height: 50px;
 }
 
@@ -85,13 +82,10 @@ body {
 
 .back {
   color: #fff;
-  font-size: 40px;
-  margin-left: 20px;
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
-  gap: 40px;
-  width: 300px;
+  height: 50px;
+  gap: 20px;
 }
 
 #nama-latin {
@@ -112,9 +106,4 @@ body {
   font-size: 20px;
   margin-top: 20px;
   text-transform: capitalize;
-}
-
-audio {
-  text-align: center;
-  margin-bottom: 15px;
 }

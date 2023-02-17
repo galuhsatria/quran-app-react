@@ -16,19 +16,21 @@ const DaftarSurah = () => {
   }, [api]);
 
   return (
-    <div className="daftarSurah">
+    <div className="daftar-surah">
       <Search setSearch={setSearch} />
-      {surah
-        .filter((value) => {
-          if (search === "") {
-            return value;
-          } else if (value.nama_latin.toLowerCase().includes(search.toLowerCase())) {
-            return value;
-          }
-        })
-        .map((surah) => {
-          return <Surah key={surah.nomor} nomor={surah.nomor} nama={surah.nama} nama_latin={surah.nama_latin} jumlah_ayat={surah.jumlah_ayat} arti={surah.arti} />;
-        })}
+      <div className="list-surah">
+        {surah
+          .filter((value) => {
+            if (search === "") {
+              return value;
+            } else if (value.nama_latin.toLowerCase().includes(search.toLowerCase())) {
+              return value;
+            }
+          })
+          .map((surah) => {
+            return <Surah key={surah.nomor} nomor={surah.nomor} nama={surah.nama} nama_latin={surah.nama_latin} jumlah_ayat={surah.jumlah_ayat} arti={surah.arti} />;
+          })}
+      </div>
     </div>
   );
 };

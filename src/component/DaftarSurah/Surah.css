@@ -5,7 +5,7 @@ body {
 .surah {
   display: flex;
   margin: auto;
-  width: 350px;
+  width: 90%;
   background-color: #001e3c;
   /* padding: 15px 30px; */
   padding: 20px 30px 0 30px;
@@ -45,4 +45,14 @@ body {
   text-align: center;
   border-radius: 25px;
   padding-top: 8px;
+}
+
+@media only screen and (min-width: 992px) {
+  .surah {
+    width: 30%;
+  }
+  .list-surah {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
