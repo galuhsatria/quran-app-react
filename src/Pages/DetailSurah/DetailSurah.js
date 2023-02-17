@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./DetailSurah.css";
-import Skeleton from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
 
 import { Link } from "react-router-dom";
 
@@ -15,16 +13,16 @@ const DetailSurah = () => {
 
   let api = `https://equran.id/api/surat/${nomor}`;
 
-  useEffect(() => {
-    getData();
-  }, []);
-
   const getData = async () => {
     const response = await fetch(api).then((response) => response.json());
     updateFetchData(response);
   };
 
-  let { nama, nama_latin, jumlah_ayat, tempat_turun, arti, audio, ayat, id } = fetchData;
+  useEffect(() => {
+    getData();
+  }, []);
+
+  let { nama_latin, jumlah_ayat, tempat_turun, arti, audio, ayat } = fetchData;
 
   let mapAyat;
 

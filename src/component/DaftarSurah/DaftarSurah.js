@@ -20,7 +20,7 @@ const DaftarSurah = () => {
       <Search setSearch={setSearch} />
       {surah
         .filter((value) => {
-          if (search == "") {
+          if (search === "") {
             return value;
           } else if (value.nama_latin.toLowerCase().includes(search.toLowerCase())) {
             return value;
