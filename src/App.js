@@ -2,10 +2,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./component/Home/Home";
-import DetailSurah from "./component/DetailSurah/DetailSurah";
 import ButtonTop from "./component/ButtonTop/ButtonTop";
-import Started from "./component/Started/Started";
+import Started from "./Pages/Started/Started";
+import DetailSurah from "./Pages/DetailSurah/DetailSurah";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (

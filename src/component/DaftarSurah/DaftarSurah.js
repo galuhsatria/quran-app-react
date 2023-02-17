@@ -5,7 +5,6 @@ import Surah from "./Surah.js";
 
 const DaftarSurah = () => {
   let [surah, setSurah] = useState([]);
-  // let [ayat, setAyat] = useState();
   const [search, setSearch] = useState("");
   let api = "https://equran.id/api/surat";
 

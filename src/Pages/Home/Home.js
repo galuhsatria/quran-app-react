@@ -1,9 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import Header from "../Header/Header";
+import Header from "../../component/Header/Header";
 
-import DaftarSurah from "../DaftarSurah/DaftarSurah";
+import DaftarSurah from "../../component/DaftarSurah/DaftarSurah";
 
 const Home = () => {
   return (
