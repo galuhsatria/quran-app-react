@@ -15,7 +15,7 @@ function App() {
       </div>
       <ButtonTop />
       <Routes>
-        <Route path="/" element={<Started />} />
+        <Route path="/quran-app-react" element={<Started />} />
         <Route path="/daftar-surah" element={<Home />} />
         <Route path="surah/:nomor" element={<DetailSurah />} />
       </Routes>
